@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url('../assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    color: rgb(10, 1, 7);
+    background: rgba(93, 238, 248, 0.8); /* Add a semi-transparent white background */
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    margin-left:15%;
+    min-height: 100px;
+    transform: translate(-50%, -50%);
+}
+
+.newtask {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newtask input {
+    width: 75%;
+    height: 45px;
+    font-weight: 500;
+    padding: 12px;
+    background-color: aqua;
+    font-size: large;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    background-color: #f0f8ff; /* Updated input box color */
+}
+
+#newtask input:focus {
+    outline: none;
+    border-color: #0d75ec;
+}
+#tasks{
+  font-weight: 500;
+}
+#newtask button {
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: skyblue;
+}
